@@ -12,20 +12,20 @@ Methods that return new QuerySets
  * [filter](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#filter)
  * [exclude](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#exclude)
  * [annotate](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#annotate)
- * order_by
- * reverse
- * distinct
- * values
- * values_list
- * dates
- * none
- * all
- * select_related
- * prefetch_related
- * extra
- * defer
- * only
- * using
+ * [order_by](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#order-by)
+ * [reverse](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#reverse)
+ * [distinct](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#distinct)
+ * [values](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#values)
+ * [values_list](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#values-list)
+ * [dates](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#dates)
+ * [none](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#none)
+ * [all](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#all)
+ * [select_related](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#select-related)
+ * [prefetch_related](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#select-related)
+ * [extra](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#extra)
+ * [defer]((https://docs.djangoproject.com/en/1.5/ref/models/querysets/#defer)
+ * [only](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#only)
+ * [using](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#using)
  * select_for_update
 
 Methods that do not return QuerySets
