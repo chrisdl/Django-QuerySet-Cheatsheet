@@ -26,7 +26,7 @@ Methods that return new QuerySets
  * [defer]((https://docs.djangoproject.com/en/1.5/ref/models/querysets/#defer)
  * [only](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#only)
  * [using](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#using)
- * select_for_update
+ * [select_for_update](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#select-for-update)
 
 Methods that do not return QuerySets
 ---
