@@ -9,9 +9,9 @@ Methods that return new QuerySets
 
     Entry.objects.filter(**kwargs).exclude(**kwargs).order_by(**kwargs)
 
- * filter
- * exclude
- * annotate
+ * [filter](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#filter)
+ * [exclude](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#exclude)
+ * [annotate](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#annotate)
  * order_by
  * reverse
  * distinct
