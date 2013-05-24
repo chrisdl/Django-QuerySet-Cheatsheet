@@ -2,7 +2,7 @@ Cheatsheet for Django QuerySets
 ===
 Current Django Version: [1.5](https://docs.djangoproject.com/en/1.5/ref/models/querysets/)
 
-Methods that return new QuerySets
+Methods that return new [QuerySets](https://docs.djangoproject.com/en/dev/ref/models/querysets/#queryset-api)
 ---
 
 **Can be chained:**
@@ -31,18 +31,18 @@ Methods that return new QuerySets
 Methods that do not return QuerySets
 ---
 
- * get
- * create
- * get_or_create
- * bulk_create
- * count
- * in_bulk
- * iterator
- * latest
- * aggregate
- * exists
- * update
- * delete
+ * [get](https://docs.djangoproject.com/en/dev/ref/models/querysets/#get)
+ * [create](https://docs.djangoproject.com/en/dev/ref/models/querysets/#create)
+ * [get_or_create](https://docs.djangoproject.com/en/dev/ref/models/querysets/#get-or-create)
+ * [bulk_create](https://docs.djangoproject.com/en/dev/ref/models/querysets/#bulk-create)
+ * [count](https://docs.djangoproject.com/en/dev/ref/models/querysets/#count)
+ * [in_bulk](https://docs.djangoproject.com/en/dev/ref/models/querysets/#in-bulk)
+ * [iterator](https://docs.djangoproject.com/en/dev/ref/models/querysets/#iterator)
+ * [latest](https://docs.djangoproject.com/en/dev/ref/models/querysets/#latest)
+ * [aggregate](https://docs.djangoproject.com/en/dev/ref/models/querysets/#aggregate)
+ * [exists](https://docs.djangoproject.com/en/dev/ref/models/querysets/#exists)
+ * [update](https://docs.djangoproject.com/en/dev/ref/models/querysets/#update)
+ * [delete](https://docs.djangoproject.com/en/dev/ref/models/querysets/#delete)
 
 Field lookups
 ---
