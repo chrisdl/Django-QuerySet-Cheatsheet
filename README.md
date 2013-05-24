@@ -51,28 +51,28 @@ Field lookups
 
     Example: Entry.objects.get(id__exact=14)
 
- * exact
- * iexact
- * contains
- * icontains
- * in
- * gt
- * gte
- * lt
- * lte
- * startswith
- * istartswith
- * endswith
- * iendswith
- * range
- * year
- * month
- * day
- * week_day
- * isnull
- * search
- * regex
- * iregex
+ * [exact](https://docs.djangoproject.com/en/dev/ref/models/querysets/#exact)
+ * [iexact](https://docs.djangoproject.com/en/dev/ref/models/querysets/#iexact)
+ * [contains](https://docs.djangoproject.com/en/dev/ref/models/querysets/#contains)
+ * [icontains](https://docs.djangoproject.com/en/dev/ref/models/querysets/#icontains)
+ * [in](https://docs.djangoproject.com/en/dev/ref/models/querysets/#in)
+ * [gt](https://docs.djangoproject.com/en/dev/ref/models/querysets/#gt)
+ * [gte](https://docs.djangoproject.com/en/dev/ref/models/querysets/#gte)
+ * [lt](https://docs.djangoproject.com/en/dev/ref/models/querysets/#lt)
+ * [lte](https://docs.djangoproject.com/en/dev/ref/models/querysets/#lte)
+ * [startswith](https://docs.djangoproject.com/en/dev/ref/models/querysets/#startswith)
+ * [istartswith](https://docs.djangoproject.com/en/dev/ref/models/querysets/#istartswith)
+ * [endswith](https://docs.djangoproject.com/en/dev/ref/models/querysets/#endswith)
+ * [iendswith](https://docs.djangoproject.com/en/dev/ref/models/querysets/#iendswith)
+ * [range](https://docs.djangoproject.com/en/dev/ref/models/querysets/#range)
+ * [year](https://docs.djangoproject.com/en/dev/ref/models/querysets/#year)
+ * [month](https://docs.djangoproject.com/en/dev/ref/models/querysets/#month)
+ * [day](https://docs.djangoproject.com/en/dev/ref/models/querysets/#day)
+ * [week_day](https://docs.djangoproject.com/en/dev/ref/models/querysets/#week_day)
+ * [isnull](https://docs.djangoproject.com/en/dev/ref/models/querysets/#isnull)
+ * [search](https://docs.djangoproject.com/en/dev/ref/models/querysets/#search)
+ * [regex](https://docs.djangoproject.com/en/dev/ref/models/querysets/#regex)
+ * [iregex](https://docs.djangoproject.com/en/dev/ref/models/querysets/#iregex)
 
 **Protip: Use *in* to avoid chaining filter() and exclude()**
 
@@ -81,10 +81,10 @@ Field lookups
 Aggregation functions
 ---
 
- * Avg
- * Count
- * Max
- * Min
- * StdDev
- * Sum
- * Variance
+ * [Avg](https://docs.djangoproject.com/en/dev/ref/models/querysets/#avg)
+ * [Count](https://docs.djangoproject.com/en/dev/ref/models/querysets/#id6)
+ * [Max](https://docs.djangoproject.com/en/dev/ref/models/querysets/#max)
+ * [Min](https://docs.djangoproject.com/en/dev/ref/models/querysets/#min)
+ * [StdDev](https://docs.djangoproject.com/en/dev/ref/models/querysets/#stddev)
+ * [Sum](https://docs.djangoproject.com/en/dev/ref/models/querysets/#sum)
+ * [Variance](https://docs.djangoproject.com/en/dev/ref/models/querysets/#variance)
