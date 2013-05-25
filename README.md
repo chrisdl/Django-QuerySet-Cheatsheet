@@ -85,6 +85,6 @@ Aggregation functions
  * [Count](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#id6)
  * [Max](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#max)
  * [Min](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#min)
- * [Std1.5](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#std1.5)
+ * [StdDev](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#stddev)
  * [Sum](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#sum)
  * [Variance](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#variance)
