@@ -2,47 +2,47 @@ Cheatsheet for Django QuerySets
 ===
 Current Django Version: [1.5](https://docs.djangoproject.com/en/1.5/ref/models/querysets/)
 
-Methods that return new QuerySets
+Methods that return new [QuerySets](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#queryset-api)
 ---
 
 **Can be chained:**
 
     Entry.objects.filter(**kwargs).exclude(**kwargs).order_by(**kwargs)
 
- * filter
- * exclude
- * annotate
- * order_by
- * reverse
- * distinct
- * values
- * values_list
- * dates
- * none
- * all
- * select_related
- * prefetch_related
- * extra
- * defer
- * only
- * using
- * select_for_update
+ * [filter](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#filter)
+ * [exclude](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#exclude)
+ * [annotate](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#annotate)
+ * [order_by](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#order-by)
+ * [reverse](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#reverse)
+ * [distinct](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#distinct)
+ * [values](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#values)
+ * [values_list](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#values-list)
+ * [dates](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#dates)
+ * [none](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#none)
+ * [all](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#all)
+ * [select_related](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#select-related)
+ * [prefetch_related](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#select-related)
+ * [extra](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#extra)
+ * [defer]((https://docs.djangoproject.com/en/1.5/ref/models/querysets/#defer)
+ * [only](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#only)
+ * [using](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#using)
+ * [select_for_update](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#select-for-update)
 
 Methods that do not return QuerySets
 ---
 
- * get
- * create
- * get_or_create
- * bulk_create
- * count
- * in_bulk
- * iterator
- * latest
- * aggregate
- * exists
- * update
- * delete
+ * [get](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#get)
+ * [create](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#create)
+ * [get_or_create](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#get-or-create)
+ * [bulk_create](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#bulk-create)
+ * [count](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#count)
+ * [in_bulk](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#in-bulk)
+ * [iterator](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#iterator)
+ * [latest](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#latest)
+ * [aggregate](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#aggregate)
+ * [exists](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#exists)
+ * [update](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#update)
+ * [delete](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#delete)
 
 Field lookups
 ---
@@ -51,28 +51,28 @@ Field lookups
 
     Example: Entry.objects.get(id__exact=14)
 
- * exact
- * iexact
- * contains
- * icontains
- * in
- * gt
- * gte
- * lt
- * lte
- * startswith
- * istartswith
- * endswith
- * iendswith
- * range
- * year
- * month
- * day
- * week_day
- * isnull
- * search
- * regex
- * iregex
+ * [exact](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#exact)
+ * [iexact](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#iexact)
+ * [contains](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#contains)
+ * [icontains](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#icontains)
+ * [in](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#in)
+ * [gt](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#gt)
+ * [gte](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#gte)
+ * [lt](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#lt)
+ * [lte](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#lte)
+ * [startswith](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#startswith)
+ * [istartswith](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#istartswith)
+ * [endswith](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#endswith)
+ * [iendswith](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#iendswith)
+ * [range](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#range)
+ * [year](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#year)
+ * [month](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#month)
+ * [day](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#day)
+ * [week_day](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#week_day)
+ * [isnull](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#isnull)
+ * [search](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#search)
+ * [regex](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#regex)
+ * [iregex](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#iregex)
 
 **Protip: Use *in* to avoid chaining filter() and exclude()**
 
@@ -81,10 +81,10 @@ Field lookups
 Aggregation functions
 ---
 
- * Avg
- * Count
- * Max
- * Min
- * StdDev
- * Sum
- * Variance
+ * [Avg](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#avg)
+ * [Count](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#id6)
+ * [Max](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#max)
+ * [Min](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#min)
+ * [StdDev](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#stddev)
+ * [Sum](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#sum)
+ * [Variance](https://docs.djangoproject.com/en/1.5/ref/models/querysets/#variance)
