@@ -5,7 +5,9 @@ Methods that return new [QuerySets](https://docs.djangoproject.com/en/1.6/ref/mo
 
 **Can be chained:**
 
-    Entry.objects.filter(**kwargs).exclude(**kwargs).order_by(**kwargs)
+````python
+Entry.objects.filter(**kwargs).exclude(**kwargs).order_by(**kwargs)
+````
 
  * [filter](https://docs.djangoproject.com/en/1.6/ref/models/querysets/#filter)
  * [exclude](https://docs.djangoproject.com/en/1.6/ref/models/querysets/#exclude)
@@ -49,7 +51,9 @@ Methods that return new [QuerySets](https://docs.djangoproject.com/en/1.6/ref/mo
 
 **Field lookups are how you specify the meat of an SQL WHERE clause. They’re specified as keyword arguments to the QuerySet methods *filter()*, *exclude()* and *get()*.**
 
-    Example: Entry.objects.get(id__exact=14)
+````python
+Example: Entry.objects.get(id__exact=14)  # note double underscore.
+````
 
  * [exact](https://docs.djangoproject.com/en/1.6/ref/models/querysets/#exact)
  * [iexact](https://docs.djangoproject.com/en/1.6/ref/models/querysets/#iexact)
@@ -79,7 +83,9 @@ Methods that return new [QuerySets](https://docs.djangoproject.com/en/1.6/ref/mo
 
 **Protip: Use *in* to avoid chaining filter() and exclude()**
 
-    Entry.objects.filter(status__in=['Hung over', 'Sober', 'Drunk'])
+````python
+Entry.objects.filter(status__in=['Hung over', 'Sober', 'Drunk'])
+````
 
 ## Aggregation functions
 
