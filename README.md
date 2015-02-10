@@ -1,5 +1,5 @@
 # Cheatsheet for Django QuerySets
-Current Django Version: [1.6](https://docs.djangoproject.com/en/1.7/ref/models/querysets/)
+Current Django Version: [1.7](https://docs.djangoproject.com/en/1.7/ref/models/querysets/)
 
 Methods that return new [QuerySets](https://docs.djangoproject.com/en/1.7/ref/models/querysets/#methods-that-return-new-querysets)
 
