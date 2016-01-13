@@ -1,7 +1,7 @@
 # Cheatsheet for Django QuerySets
 Current Django Version: [1.9](https://docs.djangoproject.com/en/1.9/ref/models/querysets/)
 
-Methods that return new [QuerySets](https://docs.djangoproject.com/en/1.9/ref/models/querysets/#methods-that-return-new-querysets)
+## Methods that return new [QuerySets](https://docs.djangoproject.com/en/1.9/ref/models/querysets/#methods-that-return-new-querysets)
 
 **Can be chained:**
 
