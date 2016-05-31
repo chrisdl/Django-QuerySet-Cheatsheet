@@ -94,7 +94,7 @@ Entry.objects.filter(status__in=['Hung over', 'Sober', 'Drunk'])
 ## Aggregation functions
 
  * [expression (new in 1.9)](https://docs.djangoproject.com/en/1.9/ref/models/querysets/#expression)
- * [output_field (new in 1.9)](https://docs.djangoproject.com/en/1.9/ref/models/querysets/#output_field)
+ * [output_field (new in 1.9)](https://docs.djangoproject.com/en/1.9/ref/models/querysets/#output-field)
  * [Avg](https://docs.djangoproject.com/en/1.9/ref/models/querysets/#avg)
  * [Count](https://docs.djangoproject.com/en/1.9/ref/models/querysets/#id6)
  * [Max](https://docs.djangoproject.com/en/1.9/ref/models/querysets/#max)
