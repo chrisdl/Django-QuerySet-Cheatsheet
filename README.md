@@ -23,6 +23,7 @@ Entry.objects.filter(**kwargs).exclude(**kwargs).order_by(**kwargs)
  * [all](https://docs.djangoproject.com/en/1.9/ref/models/querysets/#all)
  * [select_related](https://docs.djangoproject.com/en/1.9/ref/models/querysets/#select-related)
  * [prefetch_related](https://docs.djangoproject.com/en/1.9/ref/models/querysets/#prefetch-related)
+ * [prefetch_related_objects() (new in 1.10)](https://docs.djangoproject.com/en/1.10/ref/models/querysets/#prefetch-related-objects)
  * [extra](https://docs.djangoproject.com/en/1.9/ref/models/querysets/#extra)
  * [defer](https://docs.djangoproject.com/en/1.9/ref/models/querysets/#defer)
  * [only](https://docs.djangoproject.com/en/1.9/ref/models/querysets/#only)
@@ -107,6 +108,8 @@ Entry.objects.filter(status__in=['Hung over', 'Sober', 'Drunk'])
 
  * [Q() objects](https://docs.djangoproject.com/en/1.9/ref/models/querysets/#q-objects)
  * [Prefetch() objects](https://docs.djangoproject.com/en/1.9/ref/models/querysets/#prefetch-objects)
+
+
 
 - - -
 
