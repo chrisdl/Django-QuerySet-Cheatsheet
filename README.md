@@ -80,7 +80,7 @@ Example: Entry.objects.get(id__exact=14)  # note double underscore.
  * [month](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#month)
  * [day](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#day)
  * [week](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#week)
- * [week_day](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#week_day)
+ * [week_day](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#week-day)
  * [quarter (new in 2.0)](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#quarter)
  * [time](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#time)
  * [hour](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#hour)
@@ -114,7 +114,7 @@ Entry.objects.filter(status__in=['Hung over', 'Sober', 'Drunk'])
  * [Q() objects](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#q-objects)
  * [Prefetch() objects](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#prefetch-objects)
  * [prefetch_related_objects()](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#prefetch-related-objects)
- * [FilteredRelation() (new in 2.0)](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#filteredrelation-objects)
+ * [FilteredRelation() objects (new in 2.0)](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#filteredrelation-objects)
 
 - - -
 
