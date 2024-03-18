@@ -1,6 +1,8 @@
 # Cheatsheet for Django QuerySets
 Current Django Version: [5.0](https://docs.djangoproject.com/en/5.0/ref/models/querysets/)
 
+Mandatory impostor syndrome notice: The documentation has gotten a lot easier to navigate and this cheatsheet makes a lot less sense nowadays, but many people seem to be actively using it, so i'll keep it updated for a few more versions.
+
 ## Methods that return new [QuerySets](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#methods-that-return-new-querysets)
 
 **Can be chained:**
@@ -38,6 +40,7 @@ Entry.objects.filter(**kwargs).exclude(**kwargs).order_by(**kwargs)
 
  * [AND (&)](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#and)
  * [OR (|)](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#or)
+ * [XOR (^)](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#xor)
 
 ## Methods that do not return [QuerySets](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#methods-that-do-not-return-querysets)
 
@@ -56,12 +59,13 @@ Entry.objects.filter(**kwargs).exclude(**kwargs).order_by(**kwargs)
  * [last](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#last)
  * [aggregate](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#aggregate)
  * [exists](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#exists)
+ * [contains](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#contains)
  * [update](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#update)
  * [delete](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#delete)
  * [as_manager](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#as-manager)
  * [explain](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#explain)
 
-## Field lookups
+## Field lookups [(link)](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#field-lookups)
 
 **Field lookups are how you specify the meat of an SQL WHERE clause. They’re specified as keyword arguments to the QuerySet methods *filter()*, *exclude()* and *get()*.**
 
@@ -90,6 +94,7 @@ Example: Entry.objects.get(id__exact=14)  # note double underscore.
  * [day](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#day)
  * [week](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#week)
  * [week_day](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#week-day)
+ * [iso_week_day](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#iso-week-day)
  * [quarter](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#quarter)
  * [time](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#time)
  * [hour](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#hour)
@@ -110,6 +115,7 @@ Entry.objects.filter(status__in=['Hung over', 'Sober', 'Drunk'])
  * [expression](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#expression)
  * [output_field](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#output-field)
  * [filter](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#aggregate-filter)
+ * [default](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#default)
  * [\*\*extra](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#id7)
  * [Avg](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#avg)
  * [Count](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#id8)
